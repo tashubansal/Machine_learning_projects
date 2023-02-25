@@ -1,4 +1,4 @@
 # Machine_learning_projects
 
 
-These are hands-on experience of the projects
+Here, I am uploading all the hands-on-experiences with the machine learning projects.
