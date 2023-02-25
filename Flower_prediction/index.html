@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <style>
+        head{
+            color:red;
+            font-size:250px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 25px,25px;
+        }
+        b{
+            color:hotpink;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+        }
+        body{
+            background-color: beige;
+        }
+    </style>
+</head>
+<body>
+    <h1 align="center">Flower type prediction</h1>
+    <form action="/sub" method="POST" align="center">
+        <b>Sepal Length:</b><input type="number" step="any" name="sepal" required="required"><br><br>
+        <b>Sepal Width:</b><input type="number" name="sepal2" step="any" required="required"> <br><br>
+        <b>Petal Length:</b><input type="number" name="petal" step="any" required="required"> <br><br>
+        <b>Petal Width:</b><input type="number" name="petal2" step="any" required="required"> <br><br>
+
+        <input type="submit">
+    </form>
+
+</body>
+</html>
